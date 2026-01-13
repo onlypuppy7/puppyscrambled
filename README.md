@@ -2,6 +2,8 @@
 
 [On npm @ https://www.npmjs.com/package/puppyscrambled](https://www.npmjs.com/package/puppyscrambled)
 
+[And GitHub @ https://github.com/onlypuppy7/puppyscrambled](https://github.com/onlypuppy7/puppyscrambled)
+
 Scrambled, ported to npm. Another useless file taken out of my projects!
 
 Maps a lot of Shell Shockers functions too. Warning! Mutates Math!
