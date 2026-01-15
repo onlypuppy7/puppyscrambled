@@ -254,7 +254,7 @@ export const scrambled = {
     },
 };
 
-extendMath(Math);
+// extendMath(Math);
 extendMath(scrambled);
 
 export default scrambled;

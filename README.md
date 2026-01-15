@@ -6,7 +6,7 @@
 
 Scrambled, ported to npm. Another useless file taken out of my projects!
 
-Maps a lot of Shell Shockers functions too. Warning! Mutates Math!
+Maps a lot of Shell Shockers functions too.
 
 ## Install
 `npm install puppyscrambled`
@@ -14,6 +14,7 @@ Maps a lot of Shell Shockers functions too. Warning! Mutates Math!
 ## Usage
 ```js
 import scrambled from 'puppyscrambled';
+import { ShellShockersProxyList } from 'puppyscrambled/lists';
 
 // basic random values
 
@@ -95,4 +96,6 @@ const seeded2 = scrambled.seededRandomAlphaNumeric(12, 12345);
 
 console.log('seeded 1:', seeded1);
 console.log('seeded 2:', seeded2); // same output as seeded1
+
+console.log(ShellShockersProxyList.length, 'proxy domains available');
 ````

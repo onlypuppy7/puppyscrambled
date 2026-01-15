@@ -1,4 +1,5 @@
-import scrambled from '../index.js';
+import scrambled, { tlds } from 'puppyscrambled';
+import { ShellShockersProxyList } from 'puppyscrambled/lists';
 
 // basic random values
 
@@ -80,3 +81,5 @@ const seeded2 = scrambled.seededRandomAlphaNumeric(12, 12345);
 
 console.log('seeded 1:', seeded1);
 console.log('seeded 2:', seeded2); // same output as seeded1
+
+console.log(ShellShockersProxyList.length, 'proxy domains available');

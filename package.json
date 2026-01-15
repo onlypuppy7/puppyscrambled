@@ -1,11 +1,13 @@
 {
   "name": "puppyscrambled",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Random generation and scrambling utilities for usernames, emails, headers, and strings",
   "type": "module",
   "main": "./src/index.js",
+  "types": "./index.d.ts",
   "exports": {
-    ".": "./src/index.js"
+    ".": "./src/index.js",
+    "./lists": "./src/lists.js"
   },
   "keywords": [
     "random",
@@ -13,7 +15,8 @@
     "generator",
     "username",
     "email",
-    "utility"
+    "utility",
+    "onlypuppy7"
   ],
   "scripts": {
     "test": "node src/tests/test.js"
